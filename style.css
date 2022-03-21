@@ -1,0 +1,48 @@
+
+
+
+     body {
+        background-image: url('white.jpg');
+        
+        }
+
+    h1 {
+        text-align: center; 
+	    color:rgb(102, 83, 0);		
+	    text-decoration: underline; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+	    }
+
+    h2  {
+            text-align: left;
+            color:rgb(102, 83, 0);		
+            text-decoration: underline; 
+            font-family: Verdana, Geneva, Tahoma, sans-serif; 
+            font-style: italic;
+            }
+
+    p   {							
+        border: 1px solid black;
+        padding: 15px;
+        width: 400px;
+        height: 100px;
+        text-align: center;
+        color:rgb(117, 4, 4);
+        	
+    }
+
+
+    img { 
+      
+        display: block;
+        opacity: 100;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid rgb(243, 208, 8);
+    }
+
+
+
+
+
