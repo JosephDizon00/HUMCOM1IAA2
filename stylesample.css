@@ -1,0 +1,15 @@
+
+    button{
+        background-color: yellow;
+
+    }
+
+    p {
+    color: rgb(255, 0, 34);
+
+    }
+
+    button.onclick {
+        background-color: black;
+
+    }
