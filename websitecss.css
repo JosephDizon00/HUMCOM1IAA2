@@ -1,26 +1,36 @@
-body{
-    background-image: url('france.jpg');
+body{   
+     background-image: url("whiteg.gif");
    
-  
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+
 }
 
-button{
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    color: black;
-    background-color: #ddd;
-    text-align: center;
-    cursor: pointer;
+li {
+  float: left;
 }
-   button:hover {
-        background-color: #555;
-        color: white;
-      }
 
-img{ 
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li a:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+img{
     display: block;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 10%;
@@ -28,93 +38,102 @@ img{
 
 }
 
-.paris{ 
-    
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    float: right;
-    border: solid 3px;
-    
+.log{
+    background-image: url("bordeaux2.jpeg");
+    padding: 60px;
+    margin-bottom: 0;
 }
+    
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: transparent;
-}
+.container{
+    margin-top: 0x;
+    margin-bottom: 0px;
 
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    opacity: 1;  
-    
-    
-  }
-  
-  li a:hover {
-    background-color: rgb(0, 0, 0);
-    
-    
+    padding-top: 150px;
+    background-image: url("flagg.gif");
+    background-image:no repeat;
+    background-color: rgb(241, 241, 241);
   }
 
-  .login {
-    background-color: #ffa600;
-    
-  }
-  
-li a:hover:not(.active) {
-    background-color: rgb(0, 0, 0);
-  }
-
-  h2{
+h2{
     font-family: 'Brush Script MT', cursive;
-    color: rgb(255, 255, 255); 
+    color: rgb(32, 22, 0); 
     text-align:center ;
     text-shadow: 2px 2px 5px rgb(121, 121, 121);
     font-size: 60px;
     margin-bottom:  5px ;
+    margin-top:  5px ;
+    
   }
 
-  
-  
-
-
-p{
-color: rgb(255, 255, 255);
-font-size: 15px;
-text-align:center ;
-font-family: Tahoma, sans-serif;
-
-
-}
-
-.des{
-    color: rgb(255, 255, 255);
+  p{
+    color: rgb(0, 0, 0);
     font-size: 15px;
     text-align:center ;
-    font-family: Tahoma, sans-serif;
-    float:left ;
-    border: solid 3px;
-    margin-right: 800px;
-    padding-bottom: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 8px rgb(255, 255, 255);
+ 
+  }
 
+ .head{ 
+    margin-top: 0px;
+    background-image: url("whiteg3.gif");
+    padding-top: 50px;
+
+ }
+
+img.france{
+    display: block;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 0%;
+    float: right;
+    border: solid 1px;
+    background-color: rgb(241, 241, 241);
 }
+
 
 h3{
-color: rgb(255, 174, 0);
-font-size: 40px;
-text-align:left ;
-font-family: Tahoma, sans-serif;
-margin-top:10px ;
-text-shadow: 2px 2px 5px rgb(7, 7, 7);
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align:left ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:10px ;
+    text-shadow: 1px 1px 10px rgb(207, 207, 207);
+    margin-top: 50px;
+    margin-left:20px ;
+    background: transparent;
+ 
+    }
+
+.des1{
+    color: rgb(3, 3, 3);
+    font-size: 15px;
+    text-align:left ;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 8px rgb(255, 255, 255);
+    text-transform: bold;
+    margin-right:  20px;
+     padding: 15px;
+    font-size: 18px;
+
+   
+
+    }
+
+.des{
+    color: rgb(44, 44, 44);
+    font-size: 15px;
+    text-align:left ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: none;
+    margin-right:  20px;
+    padding: 16px;
+    font-size: 15px;
+   
+   
+
 }
+    
