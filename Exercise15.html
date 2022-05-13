@@ -1,24 +1,43 @@
 <!DOCTYPE html>
-<html>
-<body>
+ <html>
+    <head>
+        <title>Student Infomation</title>
+        <meta charset="utf-8">
+            <meta name="author" content= "Joseph Dizon">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet"  type ="text/css" href =  "style13.css">
+        </head>
 
-<form id="frm1" action="/action_page.php">
-<button id="btn1" name="subject" type="submit" value="fav_HTML">HTML</button>
-<button id="btn2" name="subject" type="submit" value="fav_CSS">CSS</button>
-</form>
+            <body>
+                <h4>Enter names in the fields, then click "Submit" to submit the form:</h4>
+                <form id="frm1" action="/action_page.php">
+                    <h1>Student Infomation</h1>
 
-<p>Click the "Try it" button to return the text on the "HTML" button:</p>
+                    <h2>Personal Info</h2>
+                    
+                        First name: <input type="text" name="fname"><br>
+                        Last name: <input type="text" name="lname"><br>
+                         age: <input type="number"name="fname"><br>
+                
+                    <h2>Contact Information</h2>
+                        Phone #: <input type="tel"name="fname"><br>
+                        Email Address: <input type="email" name="email"><br>
+                        Address: <input type="" name="address"><br>
 
-<button onclick="myFunction()">Try it</button>
+                    <h2>Academic Information</h2>
+                        Program: <input type="text" name="program"><br>
+                        ID Number: <input type="text" name="id number"><br>
+                        Year level: <input type="text" name="year level"><br>
+                        Section: <input type="text" name="section"><br><br>
+                
 
-<p id="demo"></p>
+                <button id="btn1" name="subject" type="submit" value="thank your data will be save">Submit Forms</button>
+                    
+                </form>
+             
+                <script src="Script15.js"></script>
+                  
+            </body>
 
-<script>
-function myFunction() {
-  var x = document.getElementById("btn1").innerHTML;
-  document.getElementById("demo").innerHTML = x;
-}
-</script>
 
-</body>
-</html>
+ </html>
