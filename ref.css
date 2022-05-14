@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  h2{
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(32, 22, 0); 
+    text-align:center ;
+    text-shadow: 2px 2px 5px rgb(121, 121, 121);
+    font-size: 60px;
+    margin-bottom:  5px ;
+    margin-top:  5px ;
+    
+  } 
+
+   
+  p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(32, 22, 0); 
+    text-align:center ;
+    text-shadow: 2px 2px 5px rgb(121, 121, 121);
+    font-size: 20px;
+    margin-bottom:  5px ;
+    margin-top:  5px ;
+    
+  } 
